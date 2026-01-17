@@ -1,12 +1,45 @@
 <resources>
     <string name="app_name">visiograph</string>
     <string name="login">Halaman Login</string>
+
+<!--    punyanya anggota-->
     <string name="anggota_entry">Tambah Anggota</string>
     <string name="anggota_edit">Edit Anggota</string>
     <string name="anggota_detail">Detail Anggota</string>
+    <string name="anggota">Anggota</string>
+
+<!--    Punya Barang -->
+    <string name="barang_entry">Tambah Barang</string>
+    <string name="barang_edit">Edit Barang</string>
+    <string name="barang_detail">Detail Barang</string>
+    <string name="barang">Barang</string>
+
+<!-- punya kerusakan-->
+    <string name="kerusakan_entry">Tambah Kerusakan</string>
+    <string name="kerusakan_edit">Edit Kerusakan</string>
+    <string name="kerusakan_detail">Detail Kerusakan</string>
+    <string name="kerusakan">Kerusakan</string>
+
+<!--punya peminjaman -->
+    <string name="peminjaman_entry">Tambah Peminjaman</string>
+    <string name="peminjaman_edit">Edit Peminjaman</string>
+    <string name="peminjaman_detail">Detail Peminjaman</string>
+    <string name="peminjaman">Peminjaman</string>
+
+<!--    kebutuhan lainnya -->
     <string name="back">Back</string>
     <string name="btn_submit">Submit</string>
+    <string name="required_field">* required fields</string>
+    <string name="loading">Loading...</string>
+    <string name="gagal">Gagal...</string>
+    <string name="retry">cob ulangi...</string>
+    <string name="tanya">Apakah anda yakin menghapus ini ?</string>
+    <string name="yes">Ya</string>
+    <string name="no">Tidak</string>
+    <string name="delete">Hapus</string>
+    <string name="update">Edit</string>
+    <string name="attention">Perhatian</string>
+
     <string name="nama">Nama Anggota*</string>
     <string name="nama1">Nama Anggota  :</string>
-    <string name="required_field">* required fields</string>
 </resources>
