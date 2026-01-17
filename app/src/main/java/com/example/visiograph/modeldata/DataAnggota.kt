@@ -42,3 +42,15 @@ fun DataAnggota.toDetailAnggota(): DetailAnggota = DetailAnggota(
     nim = nim,
     divisi = divisi
 )
+
+//buat searchkidss
+fun DataAnggota.doesMatchSearchQuery(query: String): Boolean {
+    val matchingCombinations = listOf(
+        nama,
+        nim,
+        "$nama $nim"
+    )
+    return matchingCombinations.any {
+        it.contains(query, ignoreCase = true)
+    }
+}

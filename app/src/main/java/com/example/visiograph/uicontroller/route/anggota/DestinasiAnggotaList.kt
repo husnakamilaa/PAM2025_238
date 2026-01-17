@@ -5,5 +5,5 @@ import com.example.visiograph.uicontroller.route.DestinasiNavigasi
 
 object DestinasiAnggotaList: DestinasiNavigasi {
     override val route = "list_anggota"
-    override val titleRes = R.string.app_name
+    override val titleRes = R.string.anggota
 }
